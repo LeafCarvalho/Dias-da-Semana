@@ -1,8 +1,15 @@
 function semana() {
-    sem = document.getElementById('weekday', 'keypress', function)
-    if (sem == value || sem == '') {
+    sem = document.getElementById('weekday')
+    if (sem.length == 0) {
         alert('É necessário que se digite um dia da semana!')
-    } else {}
+    } else {
+        console.log('Tudo funcionando perfeitamente!')
+    }
+    
+}
+
+function tarefas() {
+    tar = document.getElementById('tarefas')
 
 }
 
@@ -17,7 +24,8 @@ function semana() {
 
 
 /* 
-- FOR de LABEL terá o mesmo nome que a ID e NAME do input
-- Input tendo LIST terá o mesmo nome da ID de DATALIST.
-- O VALUE de OPTIONS já dá opções, não é necessário fechar a tag.
+- FOR de LABEL terá o mesmo nome que a ID e NAME do input;
+- Input tendo LIST terá o mesmo nome da ID de DATALIST;
+- O VALUE de OPTIONS já dá opções, não é necessário fechar a tag;
+- Verificar "onchange".
 */
