@@ -14,7 +14,8 @@
     <section>
         <div>
             <label for="weekday">Selecione o dia &#x2794; </label>
-            <input list="weekdays" name="weekday" id="weekday" onchange="tarefas">
+            <input list="weekdays" name="weekday" id="weekday">
+            <input type="button" value="Ok" onclick="OK()">
             <datalist id="weekdays">
                 <option value="Segunda-feira">
                 <option value="Terça-feira">
@@ -30,8 +31,9 @@
         <p>
             Digite as tarefas do dia:
             <input type="text" name="Tarefas" id="tarefas">
-            <input type="button" value="Prosseguir"> </p>
+            <input type="button" value="Prosseguir" onclick="prosseguir()"> </p>
     </div>
+    <script src="interacao.js"></script>
 </main>
 </body>
 </html>

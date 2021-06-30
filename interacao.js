@@ -1,16 +1,10 @@
-function ok() {
-    let dias = document.getElementById('weekday')
-    let lista = document.getElementById('weekdays')
-    let res = document.getElementById('res')
-    if (dias.value.length == 0) {
-        alert('É necessário que se digite um dia da semana!')
-        console.log('Gentileza verificar o valor digitado!')
-    } else {
-        console.log('Tudo funcionando perfeitamente!')
-    }
+function prosseguir() {
+    
 }
 
-
+function OK() {
+    document.getElementById('tarefas').focus(); // Serve para mudar de input automaticamente. Ps:Obrigado Arthur! //
+}
 
 
 
