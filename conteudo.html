@@ -10,12 +10,12 @@
 <body>
     <main>
         <h1>Organização dos dias da semana</h1>
+        <h2>Selecione um dia e digite suas tarefas</h2>
     </main>
     <section>
         <div>
-            <label for="weekday">Selecione o dia &#x2794; </label>
-            <input list="weekdays" name="weekday" id="weekday">
-            <input type="button" value="Ok" onclick="OK()">
+            <input list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
+            <input type="button" value="Ok" onclick="OK()" onkeypress="">
             <datalist id="weekdays">
                 <option value="Segunda-feira">
                 <option value="Terça-feira">
@@ -29,11 +29,14 @@
     </section>
     <div id="res">
         <p>
-            Digite as tarefas do dia:
-            <input type="text" name="Tarefas" id="tarefas">
+            <input type="text" name="Tarefas" id="tarefas" placeholder="Insira tarefas">
             <input type="button" value="Prosseguir" onclick="prosseguir()"> </p>
     </div>
+    <form>
+        <input type="button" value="Imprimir" onclick="window.print()">
+    </form>
     <script src="interacao.js"></script>
 </main>
 </body>
+<script src="interacao.js"></script>
 </html>
