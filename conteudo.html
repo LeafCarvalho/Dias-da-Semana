@@ -15,7 +15,7 @@
     <section>
         <div>
             <input list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
-            <input type="button" value="Ok" onclick="OK()" onkeypress="">
+            <input type="button" value="Ok" onclick="OK()" id="ok" onkeypress="">
             <datalist id="weekdays">
                 <option value="Segunda-feira">
                 <option value="Terça-feira">
@@ -30,12 +30,13 @@
     <div id="res">
         <p>
             <input type="text" name="Tarefas" id="tarefas" placeholder="Insira tarefas">
-            <input type="button" value="Prosseguir" onclick="prosseguir()"> </p>
+            <input type="button" value="Prosseguir" onclick="prosseguir()" id="prosseguir"> </p>
     </div>
     <form>
-        <input type="button" value="Imprimir" onclick="window.print()">
+        <footer>
+            <input type="button" value="Imprimir" onclick="window.print()" id="imprimir">
+        </footer>
     </form>
-    <script src="interacao.js"></script>
 </main>
 </body>
 <script src="interacao.js"></script>
