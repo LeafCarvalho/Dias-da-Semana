@@ -10,12 +10,12 @@
 <body>
     <main>
         <h1>Organização dos dias da semana</h1>
-        <h2>Selecione um dia e digite suas tarefas</h2>
+        <h2><u>Selecione um dia e transcreva suas tarefas</u></h2>
     </main>
     <section>
         <div>
             <input list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
-            <input type="button" value="Ok" onclick="OK()" id="ok" onkeypress="">
+            <input type="button" value="&#x2B07;" onclick="OK()" id="ok">
             <datalist id="weekdays">
                 <option value="Segunda-feira">
                 <option value="Terça-feira">
@@ -32,13 +32,47 @@
             <input type="text" name="Tarefas" id="tarefas" placeholder="Insira tarefas">
             <input type="button" value="Prosseguir" onclick="prosseguir()" id="prosseguir"> </p>
     </div>
-    <div  id="res">
-        <br>
-        
-    </div>
-</main>
+    <table>
+        <br><br>
+<div>
+    <table id="quadro">
+        <tr>
+            <th id="colprinc1">Dias da semana</th>
+            <th id="colprinc2">Tarefas</th>
+        </tr>
+
+        <tr>
+            <td>Dia01</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia02</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia03</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia04</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia05</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia06</td>
+            <td>Tarefa</td>
+        </tr>
+        <tr>
+            <td>Dia07</td>
+            <td>Tarefa</td>
+        </tr>
+    </table>
+</div>
 <form>
-    <br><br><br><br><br><br><br>
+    <br><br><br><br>
     <input type="button" value="Imprimir" onclick="window.print()" id="imprimir">
 </form>
 </body>

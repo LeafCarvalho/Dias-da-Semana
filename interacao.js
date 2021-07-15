@@ -1,5 +1,5 @@
 let dias = document.getElementById('weekday')
-var tar = document.getElementById('tarefas')
+let tar = document.getElementById('tarefas')
 let resp = document.getElementById('res')
 
 
@@ -14,10 +14,9 @@ function OK() {
 function prosseguir() {
     if (tar.value.length == 0) {
     alert('Digite uma tarefa!')
-    } else {
-        resp.innerHTML(`${dias}`)
-    }
+    } else {}
 }
+
 
 
 
