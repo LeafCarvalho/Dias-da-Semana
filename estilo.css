@@ -9,6 +9,7 @@ h1 {
 
 #weekday {
     font-size: 20px;
+    margin-left: 1px;
 }
 
 #tarefas {
@@ -16,11 +17,13 @@ h1 {
     height: 50px;
     float: left;
     font-size: 15px;
+    margin-left: 1px;
 }
 
 
 h2 {
     color: rgb(68, 67, 67);
+    margin-left: 2px;
 }
 
 body {
@@ -31,7 +34,6 @@ body {
     padding-top: 10px;
     border: outset whitesmoke;
     padding-bottom: 450px;
-
 }
 
 #ok {
@@ -42,12 +44,15 @@ body {
 
 #prosseguir {
     height: 40px;
-    margin-top: 12px;
+    margin-top: 8px;
     font-family: monospace;
+    margin-left: 2px;
 }
 
 #imprimir {
     font-family: monospace;
+    margin-left: 640px;
+    height: 30px;
 }
 
 
@@ -55,6 +60,7 @@ body {
 #quadro, td, th {
     border: 2px solid white;
     border-collapse: collapse;
+    margin-left: 5px;
 }
 #colprinc1 {
     background-color: rgb(98, 125, 173);
