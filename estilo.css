@@ -32,7 +32,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     padding-top: 10px;
-    border: outset whitesmoke;
     padding-bottom: 450px;
 }
 
@@ -60,7 +59,8 @@ body {
 #quadro, td, th {
     border: 2px solid white;
     border-collapse: collapse;
-    margin-left: 5px;
+    margin-left: 2px;
+    
 }
 #colprinc1 {
     background-color: rgb(98, 125, 173);
