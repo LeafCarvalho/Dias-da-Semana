@@ -3,8 +3,10 @@ header {
 }
 
 h1 {
-    background-color: rgb(184, 185, 241);
+    background-color: rgba(57, 60, 255, 0.24);
+    padding
     text-align: center;
+    color: rgba(255, 255, 255, 0.795);
 }
 
 #weekday {
@@ -22,7 +24,7 @@ h1 {
 
 
 h2 {
-    color: rgb(68, 67, 67);
+    color: rgba(255, 255, 255, 0.774);
     margin-left: 2px;
 }
 
@@ -37,8 +39,8 @@ body {
 
 #ok {
     font-family: monospace;
-    width: 35px;
     font-size: 17px;
+    padding: 0px 18px;
 }
 
 #prosseguir {
@@ -51,7 +53,8 @@ body {
 #imprimir {
     font-family: monospace;
     margin-left: 640px;
-    height: 30px;
+    text-align: center;
+    padding: 7px 42px;
 }
 
 
@@ -63,18 +66,18 @@ body {
     
 }
 #colprinc1 {
-    background-color: rgb(98, 125, 173);
+    background-color: rgba(98, 125, 173, 0.589);
     color: black;
     width: 150px;
     height: 25px;
 }
 #colprinc2 {
-    background: rgb(98, 125, 173);
+    background: rgba(98, 125, 173, 0.589);
     color: black;
     width: 300px;
     height: 25px;
 }
 td {
     text-align: center;
-    background-color: rgb(170, 255, 0);
+    background-color: rgba(170, 255, 0, 0.466);
 }
