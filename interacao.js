@@ -1,28 +1,7 @@
-let dias = document.getElementById('weekday')
-let tar = document.getElementById('tarefas')
-let resp = document.getElementById('res')
-
-
-function OK() {
-    document.getElementById('tarefas').focus(); // Serve para mudar de input automaticamente. Ps:Obrigado Arthur! //
-    if (dias.value.length == 0 || dias == Number) {
-        alert('Gentileza digitar um valor válido!')
-    } else {
-        console.log(dias)
-    }
-    resp.innerHTML(`${OK}`)
+var dias = []
+for (var i=0; i < dias.lenght; i++) {
+    var lis = document.getElementById('weekdays')
 }
-
-
-function prosseguir() {
-    if (tar.value.length == 0) {
-    alert('Digite uma tarefa!')
-    } else {
-        console.log(tar)
-    }
-    resp.innerHTML(`${tar}`)
-}
-
 
 
 
