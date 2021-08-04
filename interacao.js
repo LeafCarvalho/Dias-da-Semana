@@ -1,7 +1,7 @@
-var dias = []
-for (var i=0; i < dias.lenght; i++) {
-    var lis = document.getElementById('weekdays')
-}
+var tarefas = []
+tarefas[0] = 7
+tarefas[1] = 2
+console.log(tarefas)
 
 
 
