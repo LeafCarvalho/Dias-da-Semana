@@ -1,9 +1,20 @@
-var tarefas = []
-tarefas[0] = 7
-tarefas[1] = 2
-console.log(tarefas)
+var tarefas = [];
+var dias = [];
 
+function prosseguir(){
+    var tarefa = document.getElementById('tarefas').value;
+    var dia = document.getElementById('weekdays').value;
 
+    dias.push(dia)
+    tarefas.push(tarefa);
+
+    var html = '';
+
+    for(var i = 0; i < tarefas.length; i++) {
+        html += '<tr><td>' + dias[i] + '</td><td>' + tarefas[i] + '</td></tr>';
+        document.getElementById('table').innerHTML = html;
+    }
+}
 
 
 /* 

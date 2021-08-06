@@ -14,17 +14,16 @@
     </main>
     <section>
         <div id = "dias">
-            <input list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
-            <input type="button" value="&#x2B07;" onclick="OK()" id="ok">
-            <datalist id="weekdays">
-                <option value="Segunda-feira">
-                <option value="Terça-feira">
-                <option value="Quarta-feira">
-                <option value="Quinta-feira">
-                <option value="Sexta-feira">
-                <option value="Sábado">
-                <option value="Domingo">
-            </datalist>
+            <label list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
+            <select id="weekdays">
+                <option value="Segunda-feira">Segunda</option>
+                <option value="Terça-feira">Terça</option>
+                <option value="Quarta-feira">Quarta</option>
+                <option value="Quinta-feira">Quinta</option>
+                <option value="Sexta-feira">Sexta</option>
+                <option value="Sábado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+                </select>
         </div>
     </section>
     <div id="pros">
@@ -42,35 +41,8 @@
             <th>Tarefa</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td></td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
-        <tr>
-            <td>.</td>
-            <td>.</td>
-        </tr>
+    <tbody id="table">
+        
     </tbody>
     </table>
 </div>
