@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <main>
+    <main class="flex-container">
         <h1>Organização dos dias da semana</h1>
-        <h2>Selecione um dia e transcreva suas tarefas</h2>
     </main>
     <section>
-        <div>
-            <input list="weekdays" name="weekday" id="weekday" placeholder="Selecione um dia">
-            <input type="button" value="&#x2B07;" onclick="OK()" id="ok">
+        <div class="container">
+            <input list="weekdays" name="weekday" class="weekday" placeholder="Selecione um dia">
             <datalist id="weekdays">
                 <option value="Segunda-feira">
                 <option value="Terça-feira">
@@ -27,20 +25,14 @@
             </datalist>
         </div>
     </section>
-    <div id="pros">
+    <div>
         <p>
-            <input type="text" name="Tarefas" id="tarefas" placeholder="Insira tarefas">
-            <input type="button" value="Prosseguir" onclick="prosseguir()" id="prosseguir"> </p>
+            <input type="text" name="Tarefas" class="container" placeholder="Insira tarefas">
+            <input type="button" value="Ok" onclick="ok()" class="ok-container" onkeypress="13"> </p>
     </div>
     <table>
         <br><br>
 <div>
-    <table id="quadro">
-        <tr>
-            <th id="colprinc1">Dias</th>
-            <th id="colprinc2">Tarefas</th>
-        </tr>
-
     </table>
 </div>
 <form>

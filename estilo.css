@@ -1,46 +1,43 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    background-color: rgb(174, 130, 216);
+    
+}
+
+
+.container{
+    display: flex;
+    height: 30px;
+    width: 350px;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.weekday{
+    width: 175px;
+}
+
+.ok-container{
+    display: flex;
+    position: relative;
+}
+
 header {
     background-color: black;
 }
 
-h1 {
-    background-color: rgba(57, 60, 255, 0.24);
-    padding
-    text-align: center;
-    color: rgba(255, 255, 255, 0.795);
-}
-
-#weekday {
-    font-size: 20px;
-    margin-left: 1px;
-}
-
-#tarefas {
-    width: 300px;
-    height: 50px;
-    float: left;
-    font-size: 15px;
-    margin-left: 1px;
-}
-
-
-h2 {
-    color: rgba(255, 255, 255, 0.774);
-    margin-left: 2px;
-}
-
 body {
-    background-color: rgb(155, 141, 155);
+    background-color: rgb(111, 20, 197);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     padding-top: 10px;
     padding-bottom: 450px;
-}
-
-#ok {
-    font-family: monospace;
-    font-size: 17px;
-    padding: 0px 18px;
 }
 
 #prosseguir {
@@ -54,30 +51,5 @@ body {
     font-family: monospace;
     margin-left: 640px;
     text-align: center;
-    padding: 7px 42px;
-}
-
-
-
-#quadro, td, th {
-    border: 2px solid white;
-    border-collapse: collapse;
-    margin-left: 2px;
-    
-}
-#colprinc1 {
-    background-color: rgba(98, 125, 173, 0.589);
-    color: black;
-    width: 150px;
-    height: 25px;
-}
-#colprinc2 {
-    background: rgba(98, 125, 173, 0.589);
-    color: black;
-    width: 300px;
-    height: 25px;
-}
-td {
-    text-align: center;
-    background-color: rgba(170, 255, 0, 0.466);
+    align-items: center;
 }
